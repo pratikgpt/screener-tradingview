@@ -107,7 +107,7 @@ export default function Home() {
           {/* Error Message */}
           {error && (
             <div className="mt-4 p-3 bg-red-500/10 border border-red-500/20 rounded-lg flex items-center gap-2 text-red-400 text-sm">
-              <AlertCircle className="w-4 h-4 flex-shrink-0" />
+              <AlertCircle className="w-4 h-4 shrink-0" />
               {error}
             </div>
           )}
@@ -173,7 +173,7 @@ export default function Home() {
                 readOnly
                 value={output}
                 className="w-full h-48 bg-zinc-950 border border-zinc-800 rounded-lg p-3
-                  text-sm font-mono text-zinc-300 resize-none focus:outline-none
+                  text-sm font-mono text-zinc-300 resize-none focus:outline-hidden
                   focus:border-zinc-700"
               />
 
