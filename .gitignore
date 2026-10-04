@@ -45,3 +45,6 @@ Thumbs.db
 
 # Claude Code
 .claude/
+
+# Next.js (regenerated on every dev and build)
+next-env.d.ts
