@@ -4,6 +4,8 @@ Turn a stock screen from [Screener.in](https://www.screener.in) into a watchlist
 
 **Live:** https://screener-tradingview.vercel.app
 
+![A Screener.in export of 8 large caps turned into a TradingView watchlist](docs/screenshots/results.png)
+
 ## How to use
 
 1. Export your screen from Screener.in as a CSV file. It should include the `Name`, `NSE Code` and `BSE Code` columns.
